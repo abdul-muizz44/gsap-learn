@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: aliceblue;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#box1, #box2, #boxA{
+    background-color: crimson;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+#boxB{
+    background-color: rosybrown;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+#boxC{
+    background-color: royalblue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    text-transform: capitalize;
+}
+
+.container{
+    border: 1px solid #333;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
