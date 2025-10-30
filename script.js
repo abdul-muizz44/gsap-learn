@@ -77,3 +77,32 @@ tex.to("#text3", {
   repeat: -1,
   yoyo: true,
 });
+
+gsap.from("#page1 #box", {
+  scale: 0,
+  delay: 1,
+  duration: 2,
+  rotate: 360,
+});
+
+gsap.from("#page2 #box", {
+  scale: 0,
+  duration: 2,
+  rotate: 360,
+  scrollTrigger: {
+    trigger: "#page2 #box",
+    scroller: "body",
+    markers: true,
+    start: "top 90%",
+    end: "top 10%",
+    scrub: 2,
+    pin: true,
+  },
+});
+
+gsap.from("#page3 #box", {
+  scale: 0,
+  delay: 1,
+  duration: 2,
+  rotate: 360,
+});
