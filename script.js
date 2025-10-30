@@ -20,7 +20,7 @@ gsap.from("body #box2", {
   yoyo: true,
 });
 
-gsap.from("h1", {
+gsap.from(".container h1", {
   duration: 1,
   y: 20,
   opacity: 0,
@@ -105,4 +105,17 @@ gsap.from("#page3 #box", {
   delay: 1,
   duration: 2,
   rotate: 360,
+});
+
+gsap.to("#abcd h1", {
+  x: "-350%",
+  scrollTrigger: {
+    trigger: "#abcd",
+    scroller: "body",
+    pin: true,
+    scrub: 2,
+    markers: true,
+    start: "top 0%",
+    end: "top -200%",
+  },
 });
