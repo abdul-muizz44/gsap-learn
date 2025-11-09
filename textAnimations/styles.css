@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Stack Sans Notch", sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 100px;
+    color:white;
+    overflow: hidden;
+}
+
+h1 span{
+    display: inline-block;
+}
