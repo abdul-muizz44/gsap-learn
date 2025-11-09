@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1632");
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+#nev{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FAFC6C;
+    padding: 40px 50px;
+}
+
+#nev h2{
+    font-size: 30px;
+}
+
+#nev i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#full{
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.219);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 200px 50px;
+}
+
+#full h4{
+    font-size: 50px;
+    color: #FAFC6C;
+    font-family: "Poppins", sans-serif;
+} 
+
+#full i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: black;
+    background-color: #FAFC6C;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
