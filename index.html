@@ -3,48 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>GSAP AI Learning Hub</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div id="box1"></div>
-      <div id="box2"></div>
-    </div>
+    <header class="site-header">
+      <a class="brand" href="#top">GSAP AI Learning Hub</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#topics">Topics</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#examples">Examples</a>
+        <a href="#playground">Playground</a>
+      </nav>
+    </header>
 
-    <div class="container">
-      <center>
-        <h1>I am H1</h1>
-        <h1>I am also H1</h1>
-        <h1>May hu Giaan</h1>
-      </center>
-    </div>
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">AI / ML learning playground</p>
+          <h1>Learn AI, deep learning, GenAI, and agentic systems with motion.</h1>
+          <p class="lead">
+            This project turns the old GSAP practice repo into a focused learning
+            hub for AI, ML, NLP, computer vision, LLMs, and agentic AI.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#topics">Explore topics</a>
+            <a class="button button-secondary" href="#playground">Open demos</a>
+          </div>
+          <ul class="hero-tags" aria-label="Core topics">
+            <li>AI/ML</li>
+            <li>Deep Learning</li>
+            <li>GenAI</li>
+            <li>LLMs</li>
+            <li>NLP</li>
+            <li>Computer Vision</li>
+            <li>Agentic AI</li>
+          </ul>
+        </div>
 
-    <div class="container">
-      <div id="boxA"></div>
-      <div id="boxB"></div>
-      <div id="boxC"></div>
-    </div>
+        <div class="hero-panel" data-reveal>
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="panel-card">
+            <p>Learning path</p>
+            <h2>From foundations to agent workflows</h2>
+            <div class="panel-stats">
+              <div>
+                <strong>7</strong>
+                <span>topic blocks</span>
+              </div>
+              <div>
+                <strong>5</strong>
+                <span>project ideas</span>
+              </div>
+              <div>
+                <strong>5</strong>
+                <span>GSAP demos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <div class="container">
-      <span id="text1">Abdul</span><span id="text2"> Muizz</span
-      ><span id="text3"> BSCS</span>
-    </div>
-    <div>
-      <div id="page1">
-        <div id="box"></div>
-      </div>
-      <div id="page2">
-        <div id="box"></div>
-      </div>
-      <div id="page3">
-        <div id="box"></div>
-      </div>
-    </div>
+      <section class="stats section" aria-label="Highlights">
+        <article class="stat-card" data-reveal>
+          <span>01</span>
+          <h3>Foundation first</h3>
+          <p>Start with ML concepts, then move into neural networks and training loops.</p>
+        </article>
+        <article class="stat-card" data-reveal>
+          <span>02</span>
+          <h3>Build with context</h3>
+          <p>Understand LLMs, prompting, and multimodal workflows before tooling up.</p>
+        </article>
+        <article class="stat-card" data-reveal>
+          <span>03</span>
+          <h3>Prototype fast</h3>
+          <p>Use GSAP to keep the experience interactive, clear, and visually guided.</p>
+        </article>
+      </section>
 
-    <div id="abcd">
-      <h1>ScrollTriggerAnimation</h1>
-    </div>
+      <section id="topics" class="section">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Topic map</p>
+          <h2>Key areas to learn</h2>
+        </div>
+        <div id="topicGrid" class="card-grid"></div>
+      </section>
+
+      <section id="roadmap" class="section">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Roadmap</p>
+          <h2>Suggested learning flow</h2>
+        </div>
+        <div id="roadmapList" class="roadmap"></div>
+      </section>
+
+      <section id="examples" class="section">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Project examples</p>
+          <h2>What to build next</h2>
+        </div>
+        <div id="examplesGrid" class="example-grid"></div>
+      </section>
+
+      <section id="playground" class="section">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">GSAP playground</p>
+          <h2>Existing demos in this repo</h2>
+        </div>
+        <div id="demosGrid" class="demo-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built as a visual AI learning hub with GSAP animations.</p>
+    </footer>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"

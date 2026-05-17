@@ -1,100 +1,25 @@
-﻿# **GSAP Complete Practice Project**
+# GSAP AI Learning Hub
 
-## **Overview**
+This repo now presents an AI/ML learning landing page animated with GSAP.
 
-This repository contains **all GSAP (GreenSock Animation Platform)** practice examples combined in one project.
-It includes every important concept related to **GSAP animations**, **timelines**, and **ScrollTrigger effects** — created step by step for complete learning and visual understanding.
+## Sections
 
-This project acts as a **full GSAP learning playground**, covering both **basic** and **advanced** animation techniques.
+- AI / ML
+- Deep Learning
+- GenAI
+- LLMs
+- NLP
+- Computer Vision
+- Agentic AI
+- Learning roadmap
+- Project examples
+- Links to the existing GSAP mini-demos
 
----
+## Run
 
-## **What’s Inside**
+Open `index.html` directly in a browser.
 
-The project includes multiple animation sections, each focusing on different GSAP features:
+## Notes
 
-### **1. Basic Animations**
-
-- Movement of elements using `x`, `y`, `scale`, and `rotate`.
-- Background color transitions.
-- Shape morphing using `borderRadius`.
-- Infinite looping animations using `repeat: -1`.
-- Bounce-back motion using `yoyo: true`.
-- Text reveal effects using opacity and stagger.
-
-### **2. Timeline Animations**
-
-- Use of `gsap.timeline()` for combining multiple animations in sequence.
-- Different elements (`#boxA`, `#boxB`, `#boxC`) move with unique durations and delays.
-- Separate timeline for text (`#text1`, `#text2`, `#text3`) demonstrating chained animations.
-- Complete control of order, timing, and easing between transitions.
-
-### **3. ScrollTrigger Animations**
-
-- Integration of **GSAP ScrollTrigger** for scroll-based motion.
-- Sections pinned while scrolling.
-- Element transformations linked to scroll position (`scrub` motion).
-- `#page2 #box` scaling and rotation as the user scrolls.
-- Horizontal scroll animation for `#abcd h1`.
-- Scroll markers enabled for visualization and debugging.
-
----
-
-## **Concepts Practiced**
-
-- `gsap.to()` and `gsap.from()`
-- Creating timelines with `gsap.timeline()`
-- Infinite and reversible animations (`repeat`, `yoyo`)
-- Scroll-based motion using `ScrollTrigger`
-- Using `start`, `end`, `pin`, and `scrub` effectively
-- Understanding duration, delay, and sequencing
-- Combining multiple GSAP properties for dynamic results
-
----
-
-## **Technologies Used**
-
-| Technology        | Purpose                        |
-| ----------------- | ------------------------------ |
-| **HTML**          | Page structure                 |
-| **CSS**           | Styling and layout             |
-| **GSAP**          | Core animation engine          |
-| **ScrollTrigger** | Scroll-based animation control |
-
----
-
-## **Project Structure**
-
-```
-📁 gsap-complete-practice
- ┣ 📜 index.html
- ┣ 📜 style.css
- ┣ 📜 script.js
- ┗ 📜 README.md
-```
-
----
-
-## **How to Run**
-
-1. Clone or download the repository:
-
-   ```bash
-   git clone https://github.com/abdul-muizz44/gsap-learn
-   ```
-
-2. Open the folder in your code editor.
-3. Run the **index.html** file in your browser.
-4. Scroll or watch animations trigger automatically.
-
----
-
-## **Purpose**
-
-This repository is created purely for **GSAP learning and practice**.
-It covers almost every core feature of GSAP — making it a **complete reference project** for anyone wanting to master JavaScript animations with GSAP and ScrollTrigger.
-
----
-
-Would you like me to add a **“Demo Preview”** section at the end (where you can later add your GitHub Pages or video link)?
-
+- No build step is required.
+- Existing demo folders are kept as separate practice pages.
